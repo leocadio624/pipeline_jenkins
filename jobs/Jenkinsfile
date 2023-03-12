@@ -6,7 +6,7 @@ def jsonParse(def json) {
 pipeline {
   agent { label 'master' }
   environment {
-    appName = "variable" 
+    appName = "tarea_pipeline" 
   }
   stages {
 
